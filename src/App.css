@@ -1,6 +1,9 @@
 .active {
-  color: "#5f99be";
+  color: #fff;
+  font-size: 20;
+  font-weight: 700;
 }
+
 .link {
   text-decoration: none;
 }
