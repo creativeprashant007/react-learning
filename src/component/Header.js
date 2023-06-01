@@ -16,6 +16,7 @@ export const Header = () => {
         <img
           style={{
             borderRadius: 20,
+
             boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.25)",
           }}
           src={imageLogo}
@@ -31,6 +32,7 @@ export const Header = () => {
               flex: 1,
               width: "30%",
               fontSize: 20,
+              marginLeft: 30,
               display: "inline-flex",
               justifyContent: "space-between",
               listStyle: "none",
