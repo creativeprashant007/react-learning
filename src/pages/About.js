@@ -1,12 +1,23 @@
 import React from "react";
 import { Header } from "../component/Header";
+import { Breadcrumb } from "antd";
 export const About = () => {
   return (
     <>
       <Header />
-      <section>
-        <h1>About</h1>
-      </section>
+      <div style={{ margin: "30px" }}>
+        <Breadcrumb
+          items={[
+            {
+              title: "Home",
+            },
+
+            {
+              title: "About",
+            },
+          ]}
+        />
+      </div>
     </>
   );
 };
